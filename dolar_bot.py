@@ -2,7 +2,7 @@ import telebot, telegram, requests, queue, threading, time, random
 
 bot = telebot.TeleBot('6204169915:AAHO-Nh2HgMZk3h-NlyrNT1tLb4ioU1D44k')
 q = queue.Queue()
-txt = r"/home/helyivan/users.txt"
+txt = r"./users.txt"
 frases_peronistas = ['"Al amigo todo, al enemigo ni justicia."',
 '"Para un argentino no hay nada mejor que otro argentino."',
 '"No existe para el peronismo más que una sola clase de hombres: los que trabajan."',
